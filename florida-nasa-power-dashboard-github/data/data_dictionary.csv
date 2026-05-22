@@ -1,0 +1,18 @@
+variable,description,unit,type
+date,Observation date,YYYY-MM-DD,temporal
+city,Florida city name,text,categorical
+latitude,City latitude,degrees,numeric/geospatial
+longitude,City longitude,degrees,numeric/geospatial
+year,Calendar year,year,ordinal
+month,Calendar month,1-12,ordinal
+month_name,Month abbreviation,text,ordinal
+year_month,Year-month period,YYYY-MM,temporal
+T2M,Temperature at 2 meters,deg C,numeric
+T2M_MAX,Maximum temperature at 2 meters,deg C,numeric
+T2M_MIN,Minimum temperature at 2 meters,deg C,numeric
+PRECTOTCORR,Corrected precipitation,mm/day,numeric
+RH2M,Relative humidity at 2 meters,percent,numeric
+WS2M,Wind speed at 2 meters,m/s,numeric
+ALLSKY_SFC_SW_DWN,All-sky surface shortwave radiation,kWh/m2/day,numeric
+PS,Surface pressure,kPa,numeric
+T2MDEW,Dew/frost point at 2 meters,deg C,numeric

@@ -1,0 +1,47 @@
+1. Dataset and project setup
+Act as an expert data analyst and dashboard developer. I am completing a capstone project for Data Storytelling and Dashboard Design. Use NASA POWER climate data for Florida cities from 2015 to present. The dashboard should support EDA, data storytelling, and interactive visual exploration. Include at least five meaningful variables, more than 500 observations, multiple analytical questions, and a public source citation.
+
+2. Data download code prompt
+Write Python code to download daily NASA POWER data from 2015-01-01 to the current date for Miami, Tampa, Orlando, Jacksonville, and Fort Myers / Cape Coral. Use the NASA POWER daily point API. Download the parameters T2M, T2M_MAX, T2M_MIN, PRECTOTCORR, RH2M, WS2M, ALLSKY_SFC_SW_DWN, PS, and T2MDEW. Save one cleaned CSV named florida_nasa_power_daily.csv with columns date, city, latitude, longitude, year, month, month_name, year_month, and all downloaded variables. Include missing-value handling and comments.
+
+3. Notebook prompt
+Create a Jupyter notebook that documents the NASA POWER data download, cleaning, descriptive statistics, EDA visualizations, and dashboard preparation. Include code cells and markdown explanations. The notebook should be included in the final project folder.
+
+4. Initial dashboard prompt
+Build an interactive Florida NASA POWER climate dashboard as a single HTML file. Include filters for city, date range, variable selection, and aggregation level. Include KPI cards, a time-series trend chart, a city comparison chart, a distribution chart, a map or spatial view, and a seasonal visualization. Use a clean dashboard layout suitable for a capstone project.
+
+5. Boxplot to histogram revision prompt
+Change the distribution plot in the dashboard from a boxplot to a histogram plot.
+
+6. Precipitation correction prompt
+The daily or monthly rainfall is not supposed to be in the thousands. Check the precipitation calculations again and correct the aggregation so rainfall values are realistic. Use appropriate average or summed logic depending on the chart purpose and label the units clearly.
+
+7. Chart comparison prompt
+Explain the difference between the temperature trend chart and the average temperature by city chart. Suggest a better plot option if the two charts are redundant or if another visual would better support climate storytelling.
+
+8. Aggregation label prompt
+The trend chart should not always display average in the title. Make the title display based on the selected aggregation, such as Daily Temperature trend, Monthly Temperature trend, or Yearly Temperature trend.
+
+9. Wettest-days chart prompt
+The top wettest days chart is unclear. Explain what it shows, how it demonstrates values for all cities, what the axis names should be, and fix the cut-off y-axis labels. If there is a better plot, replace it.
+
+10. Heatmap prompt
+Replace the top wettest days chart with a monthly precipitation heatmap. Rows should be cities, columns should be months, and color should represent precipitation intensity. This should better show seasonal rainfall behavior and city comparison.
+
+11. Heatmap aggregation and color prompt
+Make the heatmap respond to the selected aggregation and use a Turbo color ramp for the color scale.
+
+12. Data packaging prompt
+Download the data first, create the dashboard from the downloaded data, include the Python code used to download the data as a notebook file, and include the downloaded CSV in the data folder.
+
+13. Static dashboard prompt
+Embed the downloaded data into the HTML dashboard and make it static. The dashboard should still work if the CSV is removed from the data folder. Keep the CSV only for storage and documentation.
+
+14. Final single-file prompt
+Use only florida_nasa_power_dynamic_dashboard_2015_to_present.html as the dashboard file. Remove the redundant latest dashboard file.
+
+15. Complete package prompt
+Include all code, the data, README file, dashboard, notebook, executive summary, report, and prompt appendix in the final capstone submission package.
+
+16. Report revision prompt
+Expand the report more on the presentation of the results while limiting the maximum page count to 20. Give credit that all work was done using ChatGPT AI. Explain that I provided the prompts repeatedly to improve the outputs. Include the detailed prompts used in dashboard development, especially the prompt that generated the Python code for downloading the data. Use detailed prompts rather than inverse or reverse prompting language.

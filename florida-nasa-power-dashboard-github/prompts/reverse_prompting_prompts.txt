@@ -1,0 +1,1 @@
+This file has been replaced by dashboard_development_prompts.txt. The project now documents detailed forward prompts rather than reverse prompting.
