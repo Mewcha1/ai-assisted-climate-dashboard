@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: Florida NASA POWER Climate Analytics Dashboard
+message: If you use this project, please cite the NASA POWER data source and this repository.
+type: software
+year: 2026
+repository-code: https://github.com/YOUR-GITHUB-USERNAME/florida-nasa-power-dashboard
+abstract: AI-assisted capstone project analyzing Florida climate patterns using NASA POWER daily meteorological data and an interactive static dashboard.
+keywords:
+  - climate analytics
+  - NASA POWER
+  - dashboard
+  - exploratory data analysis
+license: MIT
